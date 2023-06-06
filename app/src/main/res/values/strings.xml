@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Week9Practice</string>
+    <string name="celsius">°</string>
+    <string name="reset_temp">00</string>
+    <string name="welcome">Welcome,</string>
+    <string name="reset_name">Emily</string>
+    <string name="reset_date">01 January, 2023</string>
+    <string name="sunny">Sunny</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="reset_time">00:00</string>
+    <string name="humidity">Humidity</string>
+    <string name="reset_humid">00%</string>
+    <string name="wind">Wind</string>
+    <string name="reset_blowing">0m/s</string>
+    <string name="rainPercent">Rain Percent</string>
+    <string name="temperature">temperature</string>
+    <string name="reset_range">00°/00°</string>
+</resources>
