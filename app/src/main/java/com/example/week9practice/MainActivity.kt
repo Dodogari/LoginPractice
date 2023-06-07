@@ -8,6 +8,8 @@ import com.example.week9practice.databinding.ActivityMainBinding
 import retrofit2.Call
 import retrofit2.Response
 import androidx.annotation.RequiresApi
+import com.example.week9practice.LoginActivity.Companion.EXTRA_NAME
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
@@ -26,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         mainBinding.daysOfWeek.text = today.format(DateTimeFormatter.ofPattern("dd MMMM, yyyy"))
         Log.d("setting", sendDateFormat)
 
+        mainBinding.userName.text = intent.getStringExtra(EXTRA_NAME)
         //시간 불러오기
         val sendTimeFormat = LocalTime.now().format(DateTimeFormatter.ofPattern("HHmm"))
         Log.d("setting", sendTimeFormat)
